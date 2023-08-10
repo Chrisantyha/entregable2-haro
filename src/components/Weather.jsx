@@ -24,7 +24,7 @@ const Weather = ({weatherInfo}) => {
     
   return (
     
-         <section className='text-center p-6 '>
+         <section className='text-center p-6  items-center'>
         <form className='flex rounded-md overflow-hidden max-w-max mx-auto text-black'>
              <input   placeholder='City' id = "countryname" type='text' />
              <button className='text-white'>Buscar</button>

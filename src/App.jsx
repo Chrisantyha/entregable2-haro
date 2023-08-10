@@ -19,7 +19,7 @@ function App() {
     axios.get(url)
        .then (({data})=> setWeatherInfo(data))
        .catch((err)=> console.log(err))
-       
+
 
 
 
@@ -33,7 +33,7 @@ function App() {
   
  
   return (
-    <main className=' min-h-screen max-w-md min-w-min text-white font-lato flex justify-center items-center w-full h-full bg-cover  bg-[url("/images/bg.png")]' >
+    <main className='items-center min-h-screen  text-white font-lato flex justify-center  w-full h-full bg-cover  bg-[url("/images/bg.png")]' >
       
         <Weather weatherInfo = {weatherInfo} />
 
