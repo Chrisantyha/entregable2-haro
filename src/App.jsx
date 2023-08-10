@@ -19,6 +19,7 @@ function App() {
     axios.get(url)
        .then (({data})=> setWeatherInfo(data))
        .catch((err)=> console.log(err))
+       
 
 
 
